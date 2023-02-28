@@ -1,8 +1,84 @@
-.main .imgMain{
+.main {
     width: 100%;
     height: 100vh;
     background-image: url('../../img/MyPhoto.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% 100%; 
+    display: flex;
+    flex-direction: column;
 }
+
+.main .imgMain {
+    margin: 7.2rem 0 0 7.2rem;
+    width: max-content;    
+}
+
+.main .imgMain .socialMedia ul {
+    padding: 0;
+    display: flex;
+    gap: 0.8rem ;
+    width: max-content;    
+    margin: auto;
+}
+
+.main .imgMain .socialMedia ul li{
+    font-size: 1rem;
+    padding: 4px 6px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.main .imgMain .socialMedia ul li a {
+    color: black;
+    margin-top: 4px;
+}
+
+.main .imgMain .myName {
+    border: 1px solid white;
+    max-width: max-content;
+    color: white;
+    margin-top: 2.4rem;
+    padding: 8px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.main .myName h1 {
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#nameAnimation {
+    animation: 
+    blikCursor 500ms steps(40) infinite normal, 
+    typing 4s steps(40) 1s normal;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blikCursor {
+    from { 
+        border-right-color: white;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+

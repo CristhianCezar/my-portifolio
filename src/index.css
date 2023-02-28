@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #0e0e0e;
   font-size: 62.5%;
+  box-sizing: border-box ;
 }
 
 a {
