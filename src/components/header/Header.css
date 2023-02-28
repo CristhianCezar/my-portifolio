@@ -1,0 +1,38 @@
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .LetterC {
+    font-size: 1.6rem;
+    background-color: orange;
+    padding: 0.8rem 1.2rem;
+    position: relative;
+    top: 1.6rem;
+}
+
+.header .navlinks ul {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.header .navlinks ul a {
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+}
+
+.header .navlinks ul a:active {
+    color: black;
+}
+
+.header .navlinks ul li:active {
+    transition: 0.1s;
+    transform: scale(0.8);
+}
+
+.header .navlinks ul a:hover {
+    border-top: 2px solid orange;
+    color: black;
+}
