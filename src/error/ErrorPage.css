@@ -1,0 +1,17 @@
+.errorPage {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.errorPage h1 {
+    font-size: 3.2rem;
+}
+
+.errorPage p {
+    font-size: 2.4rem;
+}

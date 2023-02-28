@@ -1,27 +1,30 @@
 import React from "react";
 import './Header.css';
-import Link from "../link/Link";
 
 export default function Header() {
+
     return (
         <header className="header">
-                <a href="/" className="LetterC">C</a>
+                <a href="/" className="LetterC">C.</a>
                 <nav className="navlinks">
                     <ul>
                         <li>
-                            <Link title="About me"/>
+                            <a href="/">Home</a>
                         </li>
                         <li>
-                            <Link title="Contact"/>
+                            <a href="/aboutMe">About Me</a>
                         </li>
                         <li>
-                            <Link title="Clients"/>
+                            <a href="/contact">Contacts</a>
                         </li>
                         <li>
-                            <Link title="Skills"/>
+                            <a href="/client">Clients</a>
                         </li>
                         <li>
-                            <Link title="Services"/>
+                            <a href="/skill">Skills</a>
+                        </li>
+                        <li>
+                            <a href="/service">Services</a>
                         </li>
                     </ul>
                 </nav>

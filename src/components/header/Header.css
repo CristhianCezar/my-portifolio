@@ -11,11 +11,16 @@
     padding: 0.8rem 1.2rem;
     position: relative;
     top: 1.6rem;
+    border-radius: 6px;
 }
 
 .header .navlinks ul {
     display: flex;
     gap: 1.6rem;
+}
+
+.header .navlinks ul li {
+    cursor: pointer;
 }
 
 .header .navlinks ul a {

@@ -15,3 +15,8 @@ a {
 li {
   list-style: none;
 }
+
+.linksnavgations {
+  color: white;
+  font-size: 2rem;
+}
