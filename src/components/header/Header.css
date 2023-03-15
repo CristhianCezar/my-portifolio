@@ -41,3 +41,8 @@
     border-top: 2px solid orange;
     color: black;
 }
+
+.header .navlinks ul a:focus-visible {
+    border-top: 2px solid orange;
+    color: black;
+}

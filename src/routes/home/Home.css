@@ -52,9 +52,6 @@
     border-right: 2px solid white;
     white-space: nowrap;
     overflow: hidden;
-}
-
-#nameAnimation {
     animation: 
     blikCursor 500ms steps(40) infinite normal, 
     typing 4s steps(40) 1s normal;
@@ -78,6 +75,18 @@
     to {
         border-right-color: transparent;
     }
+}
+
+.main .hardSkills {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 2.4rem;
+}
+
+.main .hardSkills div:n {
+    padding: 100px;
 }
 
 

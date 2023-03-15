@@ -9,41 +9,39 @@ import Contact from './routes/contact/Contact';
 import Skill from './routes/skill/Skill';
 import Service from './routes/service/Service';
 
-
 function App() {
-
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home/>,
+      element: <Home />,
       errorElement: <ErrorPage />,
     },
     {
-      path:"aboutMe",
+      path: "aboutMe",
       element: <AboutMe />
     },
     {
-      path:"contact",
+      path: "contact",
       element: <Contact />
     },
     {
-      path:"client",
+      path: "client",
       element: <Client />
     },
     {
-      path:"skill",
+      path: "skill",
       element: <Skill />
     },
     {
-      path:"service",
+      path: "service",
       element: <Service />
     },
-    
+
   ]);
 
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <RouterProvider router={router} />
     </div>
   );
